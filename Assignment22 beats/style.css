@@ -1,0 +1,595 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #0f0f10;
+    color: #ffffff;
+}
+body {
+    margin: 0 15vw;
+}
+img{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+/* navigation menu designing */
+.context{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    margin-right: 40px;
+ 
+
+}
+.context:hover{
+    font-size:16px;
+}
+li{
+    list-style: none;
+   
+}
+.nav_bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    /* position: fixed; */
+    
+}
+.nav_bar img{
+    
+    width: 25px;
+    height: 25px;
+}
+.nav_bar img:hover{
+    width: 30px;
+    height: 30px;
+}
+.list{
+    display: flex;
+    
+    
+}
+.nav_right{
+    display: flex;
+    align-items: self-start;
+}
+.nav_right button{
+    padding: 10px 40px;  
+    border-radius: 8px;
+    background-color: #1e1e21;
+    font-size: 14px;
+    border: none;
+    font-weight: 300px;
+    
+}
+.nav_right button:hover{
+    background-color: #686f92;
+    padding: 10px 45px;
+}
+
+/* main content designing */
+
+
+.onear_main{
+    display: flex;
+    align-items:flex-start ;
+    margin-top: 30px;
+    position: relative;
+   
+}
+
+
+
+.mainimg{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px
+}
+.right_main{
+    margin-left: 180px;
+}
+.right_main img{
+    margin-left: 50px;
+    width: 320px;
+   
+}
+.right_main h1 {
+    font-size: 46px;
+    font-family: 600px;
+    margin-bottom: 25px;
+}
+.right_main h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+   
+}
+.right_main p{
+    width: 65%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.onEar_btn{
+
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    
+}
+.onEar_btn img{
+    margin: 0;
+    width: 14px;
+    background-color: transparent;
+    
+}
+.onEar_btn h1{
+    font-size: 10px;
+    margin-top: 20px;
+    font-weight: 400;
+    background-color: transparent;
+    
+}
+.onEar_btn span{
+    font-size: 15px;
+    background-color: transparent;
+} 
+.onEar_btn:hover{
+    background-color: #686f92;
+    padding: 0px 25px;
+}
+/* <!-- section for adding social media icons -->  */
+.social-media-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    position: relative;
+    top: -50px;
+    margin-bottom: 50px;
+}
+.social-media-section img{
+    width: 75px;
+}
+.specification{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.specs_Logo{
+    width: 175px;
+    margin-bottom: 20px;
+}
+.specs_list{
+    display: flex;
+}
+.specs_list img{
+    scale:0.8;
+}
+.specs_listitems div{
+    margin-bottom: 20px;
+}
+.specs_listitems div img{
+    scale: 0.9;
+}
+.specs_listitems{
+    scale: 0.8;
+}
+.specs_listitems div p {
+    font-size: 15px;
+}
+.specs_listitems div 
+p:last-child {
+    color: #bdc0c2;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 70%;
+}
+.specs_listitems div:first-child,
+.specs_listitems div:last-child{
+    margin-left: 30px;
+}
+.specs_list img:hover{
+    height: 410px;
+    width: 325.12px;
+
+}
+/* <!-- designing of case_item   --> */
+.case_item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.case_item img{
+    scale: 0.8;
+    margin-bottom: 40px;
+}
+.case_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftimg:hover{
+    width: 320px;
+    height: 450px;
+
+}
+.case_right{
+    width: 20%;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.case_right :last-child{
+    border-radius: 8px;
+    border: none;
+}
+.btn_case{
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.btn_case img{
+    margin: 0;
+    background-color: transparent;
+    padding: 2px;
+    scale: 0.8;
+    
+}
+.btn_case span{
+    background-color:transparent;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn_case:hover{
+    background-color: #686f92;
+    padding: 5px 25px;
+    
+}
+.btn_case img:hover{
+    scale: 0.8;
+}
+/* <!-- section to allow user to show a product --> */
+.showcase_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1e1e21;
+    border-radius: 12px;
+    padding: 40px 0px;
+}
+.buy_now{
+    background-color: #1e1e21;
+}
+.right_showcase{
+    background-color: #1e1e21;
+}
+.right_showcase div h1{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #1e1e21;
+   
+}
+.right_showcase div h3{
+    font-size: 15px;
+    color: gray;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #1e1e21;
+}
+.right_showcase button{
+    
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.btn_img{
+    margin: 0;
+    background-color: transparent;
+    margin-right: 10px;
+    
+}
+.right_showcase button:hover{
+    background-color: #686f92;
+    padding:10px 25px;
+}
+.right_showcase button h1{
+    background: transparent;
+}
+/* designing of  product card logo  */
+.headgear_product_card{
+    display: flex;
+    flex-direction: column;
+    /* margin: 80px 0px; */
+    margin: 0px 150px;
+    
+}
+.product_logo{
+    display: flex;
+    flex-direction: column;
+    scale: 0.3;
+}
+/* designing of product_gallery card  */
+.product_gallery{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;   
+}
+.product_card {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+}
+.product_img{
+    width: 75px;
+    height: 100px;
+    position:absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+}
+.product_img:hover{
+    width: 80px;
+    height: 105px;
+}
+
+.product_img,
+.product_card p,
+.product_card span,
+.product_card  div img,
+.product_card div
+{
+    background-color: transparent;
+}
+.product_detail{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+    gap: 1px;
+}
+.product_detail p{
+    font-size: 12px;
+}
+.product_detail p span{
+    color: #bdc0c2;
+}
+.product_detail div{
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+.product_detail div img{
+    width: 13px;
+    height: 13px;
+}
+/* <!-- designing of the footer section  --> */
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 100px 0px;
+    position: relative;
+}
+.footer_logo{
+    scale: 0.8;
+}
+.footer_logo:hover{
+    scale: 1;
+}
+/* <!-- product list designing section  --> */
+/* <!-- Suppport list designing section  --> */
+
+footer ul li a{
+    font-size: 13px;
+    color: #bdc0c2;
+    font-weight: 300;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    font-size: 15px;
+}
+footer ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+footer ul li:first-child a:hover{
+    font-size: 18px;
+}
+ul li:first-child{
+    margin-bottom: 10px;
+}
+/* <!-- subscriber button designing section  --> */
+
+.subscriber{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subscriber div input {
+    background: transparent;
+    border:none ;
+}
+.btn_box{
+    display: flex;
+    gap: 10px;
+    background-color: #181a1b;
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+}
+    
+
+.subscriber_button{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: #0a0a0b;
+    padding: 8px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    
+}
+.subscriber_button img{
+    background: transparent;
+
+}
+.subscriber_button p {
+    background: transparent;
+}
+.subscriber_button:hover{
+    background-color:#686f92 ;
+    padding: 8px 25px;
+    
+}
+/* <!-- social media section designing  --> */
+.social_media img{
+    padding: 0px 14px;
+    scale: 0.9;
+}
+.social_media img:hover{
+    scale: 1.2;
+}
+
+
+
+
+
+/* <!-- up arrow designing section  --> */
+.up_arrow{
+    scale: 0.8;
+    position: absolute;
+    right: -160px;
+
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+   body{
+    margin: 0 20px;
+   }
+
+  .list{
+    display: none;
+  }
+  .nav_right button{
+    margin-left: 260px;
+  }
+  .mainimg{
+    width: 85px;
+    position: relative;
+    top: -150px;
+    
+  }
+  .onear_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+   }
+   .right_main img{
+       margin-right: 200px;
+    
+   }
+   .onEar_btn{
+        padding: 0px 15px;
+   }
+   .onEar_btn img{
+    margin: 0;
+   }
+   .social-media-section{
+    margin-top: 100px;
+    gap: 20px;
+   }
+   .specs_list img{
+    scale: 0.7;
+    
+
+   }
+   .showcase_item{
+    display: flex;
+    flex-direction: column;
+   }
+   .showcase_item img{
+    scale: 0.7;
+   }
+   .headgear_product_card{
+    margin-top: 80px;
+    
+    align-items: center;
+    justify-content: space-between;
+   }
+   .product_logo{
+    scale: 0.8;
+   }
+   .product_gallery{
+    margin-top: 100px;
+    
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    
+   }
+   footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: space-between;
+   }
+   .up_arrow{
+    scale: 0.8;
+    position: absolute;
+    right: 0px;
+    top: 465px;
+   }
+
+
+}
+    
+
